@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">GroupingsMaker</string>
+    <string name="createNew">Create New</string>
 </resources>
