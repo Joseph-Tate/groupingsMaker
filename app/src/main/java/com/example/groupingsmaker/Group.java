@@ -62,6 +62,7 @@ public class Group extends AppCompatActivity {
                 // This creates the viewCreateGroupings intent
                 Intent intent = new Intent(Group.this, ViewCreateGroupings.class);
                 intent.putExtra("members",users);
+                intent.putExtra("group",name);
                 startActivity(intent);
             }
         });
